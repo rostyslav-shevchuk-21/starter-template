@@ -1,0 +1,12 @@
+.flow > *:where(:not(:first-child)) {
+    margin-top: var(--flow-spacer, 1rem);
+}
+
+/*
+:where brings zero specificity
+or
+.flow > * + * {
+    margin-top: var(--flow-spacer, 1rem);
+}
+example is on this link https://codepen.io/kevinpowell/pen/LYmpZWo?editors=1100
+*/
