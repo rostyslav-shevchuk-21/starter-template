@@ -12,10 +12,6 @@
 	margin-left: auto
 }
 
-.primary-footer {
-	padding-block: 7rem;
-}
-
 @each $size-name, $size-value in $sizes {
 	.margin {
 		&-#{$size-name} {
